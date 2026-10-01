@@ -22,7 +22,7 @@ DSA Experiential Learning, CS233AI, RVCE.
 
 ```
 cd engine
-make check                      # compiles and runs the C setup check
+make check                      # on Windows/MinGW: mingw32-make check
 
 cd ..
 pip install -r requirements.txt

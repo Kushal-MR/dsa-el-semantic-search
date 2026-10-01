@@ -7,7 +7,7 @@ import importlib
 import sys
 
 REQUIRED = [
-    ("fitz", "pymupdf", "reads text from PDFs"),
+    ("pymupdf", "pymupdf", "reads text from PDFs"),
     ("sentence_transformers", "sentence-transformers", "runs the AI model (text -> 384 numbers)"),
     ("flask", "flask", "local web server"),
 ]
