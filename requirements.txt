@@ -1,0 +1,5 @@
+# Python side only: PDF reading, AI model (text -> 384 numbers), local server.
+# No data structures here: all searching happens in the C engine.
+pymupdf
+sentence-transformers
+flask

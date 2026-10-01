@@ -1,0 +1,26 @@
+# Notes and saved indexes stay local (private, large)
+data/*
+!data/notes/
+!data/index/
+data/notes/*
+data/index/*
+!data/notes/.gitkeep
+!data/index/.gitkeep
+
+# C build output
+engine/build/
+*.o
+*.exe
+*.out
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
